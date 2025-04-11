@@ -5,6 +5,7 @@
 @import "./header.css";
 @import "./botao.css";
 @import "./main.css";
+@import "./footer.css";
 
 
 
@@ -18,6 +19,15 @@
     font-optical-sizing: auto;
     vertical-align: baseline;
     text-decoration: none;
+    list-style: none;
+}
+body {
+    background-image: linear-gradient(to bottom, #37f503b8, #25a103c3, #0a2b0076);
+    /* background-image: url('../imagens/abstract-digital-art-neon-neon-glow-1539439-wallhere.com.jpg'); */
+    background-repeat: no-repeat;
+    /* background-position: center bottom; */
+    background-size: contain;
+    
 }
 
 .container {
