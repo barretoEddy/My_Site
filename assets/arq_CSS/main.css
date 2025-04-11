@@ -1,0 +1,38 @@
+
+.conteudo-1-do-site {
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.conteudo-1-do-site article h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 100%; 
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.conteudo-1-do-site article h2 {
+    font-size: 1.2rem;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #7e7c7c;
+    margin-bottom: 10px;
+    
+}
+
+.conteudo-1-do-site article p {
+    font-size: 1rem;
+    line-height: 150%;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.conteudo-1-do-site figcaption img {
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
