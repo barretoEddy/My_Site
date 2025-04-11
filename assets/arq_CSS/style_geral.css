@@ -1,0 +1,31 @@
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/* componentes */
+@import "./header.css";
+@import "./botao.css";
+
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+.container {
+    width: 1024px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}

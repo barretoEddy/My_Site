@@ -1,0 +1,10 @@
+.btn {
+    padding: 5px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn.btn-aula {
+    background-color: rgb(0, 255, 30);
+    
+}
