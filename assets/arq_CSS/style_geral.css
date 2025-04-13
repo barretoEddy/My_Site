@@ -6,6 +6,7 @@
 @import "./botao.css";
 @import "./main.css";
 @import "./footer.css";
+@import "./menu_lateral/stylesheet_menu.css";
 
 
 
@@ -21,13 +22,18 @@
     text-decoration: none;
     list-style: none;
 }
-body {
-    background-image: linear-gradient(to bottom, #37f503b8, #25a103c3, #0a2b0076);
-    /* background-image: url('../imagens/abstract-digital-art-neon-neon-glow-1539439-wallhere.com.jpg'); */
+body, html {
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagens//background\ 2.jpg);
+    background-position: center;
     background-repeat: no-repeat;
-    /* background-position: center bottom; */
-    background-size: contain;
-    
+    background-size: cover;
+    background-blend-mode: darken;
+
+    /* abaixo tem é coisa do menu lateral */
+    overflow: hidden;
+
 }
 
 .container {

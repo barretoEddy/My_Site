@@ -1,0 +1,92 @@
+div {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    appearance: none;
+    font-family: "Nunito Sans", sans-serif;
+    
+    
+}
+
+.menu {
+    position: fixed;
+    background-color: #333;
+    color: #fff;
+    padding: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    z-index: 1000;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+    height: 722.66px;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -webkit-transform: translateZ(0) scale(1,1);
+    transform: translateZ(0) scale(1,1);
+}
+
+.menu > ul {
+    margin: 5px 0; 
+}
+.menu > li {
+    position: relative;
+    display: block;
+    width: 250px;
+
+}
+
+.menu li > a {
+    position: relative;
+    width: 250px;
+    color: #fff;
+    display: table;
+    font-size: 20px;
+    -webkit-transform: translateZ(0) scale(1,1);
+    transform: translateZ(0) scale(1,1);
+    -webkit-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+.menu .span-menu {
+    position: relative;
+    display: table;
+    vertical-align: middle; 
+    text-transform: capitalize; 
+
+}
+
+.lista-logo {
+    background-color: rgb(105, 105, 105);
+
+}
+.menu li:hover a, nav.menu li.active > a {
+    color: black;
+    background-color: rgb(105, 105, 105);
+}
+.container_menu nav {
+    -webkit-user-select: none;
+    user-select: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.fa {
+    position: relative;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    top: 12px;
+    
+}
+
+.menu:hover, nav.menu.expanded {
+    width: 250px;
+    overflow: hidden;
+    -webkit-transform: translateZ(0) scale(1,1);
+    transform: translateZ(0) scale(1,1);
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
